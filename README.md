@@ -7,5 +7,8 @@ Data downloaded from the UCI machine learning data repository https://archive.ic
 A random forest model was built to predict the prognosis.
 
 The accuracy of the model was assessed.
+Assuming N (non-recurrent) is positive and R (recurrent) is negative, the overall accuracy is 0.717, the precision is 0.75, recall is 0.93, specificity is 0.12, sensitivity and recall are both 0.93.
+The numbers above indicate that the model is decent at predicting positive data (N) but bad at predicting negative data (R). This may be partially due to unbalanced class distribution (N greatly outnumbering R).
 
 An ROC curve was built.
+
